@@ -2,40 +2,50 @@ body{
 	margin: 0;
 	padding: 0;
 }
-.menu{
+.menu a{
+	text-decoration: none;
 	font-family: arial;
-	font-weight: bold;
 	color: #F0F9F9;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 20px;
+}
+.menu{
 	float: right;
 	padding: 20px;
-	min-height: 100vh;
 }
 .open{
 	background-image: url("https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 	background-repeat: no-repeat;
 	background-size: cover;
-	overflow: auto;
+	min-height: 100vh;
 }
 h2, h3{
 	font-family: arial;
 	font-weight: bold;
 	color: #F0F9F9;
 	margin: 0;
-	padding: 0;
 }
-.logo{
+.socials{
 	padding: 20px;
 	position: absolute;
-	top: 70vh;
+	top: 80vh;
 }
 img, .socials{
 	display: inline-block;
 }
-.aston-logo{
-	width: 160px;
-	height: 160px;
-}
 .logos{
 	width: 40px;
 	height: 40px;
+}
+.scroll-up{
+	background-color: #0F1221;
+	text-align: center;
+}
+.scroll-up a{
+	color: #F0F9F9;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
 }
