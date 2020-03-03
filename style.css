@@ -86,6 +86,13 @@ article{
 	font-family: arial;
 	color: #F0F9F9;
 }
+.projects{
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.projects img{
+	width: 20vw;
+}
 .scroll-up{
 	text-align: center;
 }
