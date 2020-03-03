@@ -57,3 +57,12 @@ h1{
 	font-family: arial;
 	font-weight: bold;
 }
+
+.about-me img{
+	height: 80%;
+}
+article{
+	padding: 20px;
+	font-family: arial;
+	color: #F0F9F9;
+}
