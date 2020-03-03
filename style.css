@@ -89,9 +89,24 @@ article{
 .projects{
 	padding-left: 80px;
 	padding-right: 80px;
+	overflow: auto;
 }
 .projects img{
-	width: 20vw;
+	margin: 0;
+	padding:0;
+	max-width: 100%;
+}
+.project{
+	position: relative;
+	width: 25%;
+	margin: 0 auto;
+	float: left;
+}
+.project .hover{
+	position: absolute;
+	top: 70%;
+	width: 100%;
+	padding-left: 1%;
 }
 .scroll-up{
 	text-align: center;
