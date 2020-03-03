@@ -47,24 +47,13 @@ main{
 	color: #F0F9F9;
 }
 h1{
-	margin: 0;
+	margin-left: 80px;
 	font-family: Arial;
 	font-weight: bold;
 	padding: 20px;
 }
-.scroll-up{
-	text-align: center;
-}
-.scroll-up a{
-	color: #F0F9F9;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-family: arial;
-	font-weight: bold;
-}
 .about-me{
 	overflow: auto;
-/*	display: flex;*/
 }
 
 .about-me p{
@@ -96,4 +85,14 @@ article{
 	padding: 20px;
 	font-family: arial;
 	color: #F0F9F9;
+}
+.scroll-up{
+	text-align: center;
+}
+.scroll-up a{
+	color: #F0F9F9;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: arial;
+	font-weight: bold;
 }
