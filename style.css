@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -38,8 +42,51 @@ img, .socials{
 	width: 40px;
 	height: 40px;
 }
-.scroll-up{
+main{
 	background-color: #0F1221;
+	color: #F0F9F9;
+}
+h1{
+	margin-left: 80px;
+	font-family: Arial;
+	font-weight: bold;
+	padding: 20px;
+}
+.about-me{
+	overflow: auto;
+}
+
+.about-me p{
+	display: block;
+}
+.about-me img{
+	width: 20vw;
+	display: inline;
+	margin-top: 50px;
+	margin-left: 80px;
+	border-radius: 20%;
+	float: left;
+}
+.about-me article{
+	display: inline;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #F0F9F9;
+	margin-top: 50px;
+	margin-right: 80px;
+	padding: 20px;
+	float: right;
+	width: 60vw;
+}
+p{
+	margin: 0;
+}
+article{
+	padding: 20px;
+	font-family: arial;
+	color: #F0F9F9;
+}
+.scroll-up{
 	text-align: center;
 }
 .scroll-up a{
