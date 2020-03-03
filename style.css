@@ -73,7 +73,8 @@ h1{
 .about-me img{
 	width: 20vw;
 	display: inline;
-	padding: 50px;
+	margin-top: 50px;
+	margin-left: 80px;
 	border-radius: 20%;
 	float: left;
 }
@@ -82,10 +83,11 @@ h1{
 	border-style: solid;
 	border-radius: 5px;
 	border-color: #F0F9F9;
-	margin: 50px;
+	margin-top: 50px;
+	margin-right: 80px;
 	padding: 20px;
 	float: right;
-	width: 70vw;
+	width: 60vw;
 }
 p{
 	margin: 0;
