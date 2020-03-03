@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -46,6 +50,7 @@ h1{
 	margin: 0;
 	font-family: Arial;
 	font-weight: bold;
+	padding: 20px;
 }
 .scroll-up{
 	text-align: center;
@@ -57,9 +62,33 @@ h1{
 	font-family: arial;
 	font-weight: bold;
 }
+.about-me{
+	overflow: auto;
+/*	display: flex;*/
+}
 
+.about-me p{
+	display: block;
+}
 .about-me img{
-	height: 80%;
+	width: 20vw;
+	display: inline;
+	padding: 50px;
+	border-radius: 20%;
+	float: left;
+}
+.about-me article{
+	display: inline;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #F0F9F9;
+	margin: 50px;
+	padding: 20px;
+	float: right;
+	width: 70vw;
+}
+p{
+	margin: 0;
 }
 article{
 	padding: 20px;
