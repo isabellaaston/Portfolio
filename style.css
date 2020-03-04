@@ -32,7 +32,7 @@ h2, h3{
 .socials{
 	padding: 20px;
 	position: absolute;
-	top: 80vh;
+	bottom: 5vh;
 }
 img, .socials{
 	display: inline-block;
