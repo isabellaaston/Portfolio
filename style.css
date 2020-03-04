@@ -51,6 +51,7 @@ h1{
 	font-family: Arial;
 	font-weight: bold;
 	padding: 20px;
+	padding-left: 0;
 }
 .about-me{
 	overflow: auto;
@@ -124,8 +125,14 @@ article{
 	padding: 20px;
 }
 .hover a{
-	text-decoration: none;]
+	text-decoration: none;
 	color: #F0F9F9;
+	border: solid;
+	border-radius: 5%;
+	padding: 4px;
+}
+.hover p{
+	padding-bottom: 10px;
 }
 .scroll-up{
 	text-align: center;
