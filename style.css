@@ -51,6 +51,7 @@ h1{
 	font-family: Arial;
 	font-weight: bold;
 	padding: 20px;
+	padding-left: 0;
 }
 .about-me{
 	overflow: auto;
@@ -85,6 +86,53 @@ article{
 	padding: 20px;
 	font-family: arial;
 	color: #F0F9F9;
+}
+.projects{
+	padding-left: 80px;
+	padding-right: 80px;
+	overflow: auto;
+	display: flex;
+}
+.projects img{
+	margin: 0;
+	padding:0;
+	max-width: 100%;
+}
+.project{
+	position: relative;
+	width: 20%;
+	margin: 0 auto;
+	float: left;
+	justify-content: space-between;
+}
+.project .hover{
+	position: absolute;
+	top: 5%;
+	width: 100%;
+	padding-left: 2%;
+	opacity: 0;
+}
+.project:hover img{
+	opacity:0.3;
+}
+.project:hover .hover{
+	opacity: 1;
+}
+.hover{
+	font-family: arial;
+	color: #F0F9F9;
+	font-weight: bold;
+	padding: 20px;
+}
+.hover a{
+	text-decoration: none;
+	color: #F0F9F9;
+	border: solid;
+	border-radius: 5%;
+	padding: 4px;
+}
+.hover p{
+	padding-bottom: 10px;
 }
 .scroll-up{
 	text-align: center;
