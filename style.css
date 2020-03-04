@@ -90,6 +90,7 @@ article{
 	padding-left: 80px;
 	padding-right: 80px;
 	overflow: auto;
+	display: flex;
 }
 .projects img{
 	margin: 0;
@@ -98,15 +99,33 @@ article{
 }
 .project{
 	position: relative;
-	width: 25%;
+	width: 20%;
 	margin: 0 auto;
 	float: left;
+	justify-content: space-between;
 }
 .project .hover{
 	position: absolute;
-	top: 70%;
+	top: 5%;
 	width: 100%;
-	padding-left: 1%;
+	padding-left: 2%;
+	opacity: 0;
+}
+.project:hover img{
+	opacity:0.3;
+}
+.project:hover .hover{
+	opacity: 1;
+}
+.hover{
+	font-family: arial;
+	color: #F0F9F9;
+	font-weight: bold;
+	padding: 20px;
+}
+.hover a{
+	text-decoration: none;]
+	color: #F0F9F9;
 }
 .scroll-up{
 	text-align: center;
