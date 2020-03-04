@@ -62,14 +62,12 @@ h1{
 }
 .about-me img{
 	width: 20vw;
-	display: inline;
 	margin-top: 50px;
 	margin-left: 80px;
 	border-radius: 20%;
 	float: left;
 }
 .about-me article{
-	display: inline;
 	border-style: solid;
 	border-radius: 5px;
 	border-color: #F0F9F9;
@@ -133,6 +131,29 @@ article{
 }
 .hover p{
 	padding-bottom: 10px;
+}
+
+.contact-info{
+	display: flex;
+	justify-content: center;
+}
+.info{
+	margin-left: 80px;
+	width: 30%;
+	overflow: auto;
+}
+.info img{
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+	float: left;
+}
+.contact{
+	float: left;
+}
+
+.contact h3{
+	text-transform: uppercase;
 }
 .scroll-up{
 	text-align: center;
