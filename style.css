@@ -62,14 +62,12 @@ h1{
 }
 .about-me img{
 	width: 20vw;
-	display: inline;
 	margin-top: 50px;
 	margin-left: 80px;
 	border-radius: 20%;
 	float: left;
 }
 .about-me article{
-	display: inline;
 	border-style: solid;
 	border-radius: 5px;
 	border-color: #F0F9F9;
@@ -133,6 +131,15 @@ article{
 }
 .hover p{
 	padding-bottom: 10px;
+}
+.contact{
+	margin-left: 80px;
+}
+.contact div{
+	display: inline-block;
+}
+.info{
+	display: inline-block;
 }
 .scroll-up{
 	text-align: center;
