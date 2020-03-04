@@ -30,7 +30,7 @@ body{
 	background-size: cover;
 	min-height: 100vh;
 }
-h2, h3{
+h1{
 	font-family: 'Didact Gothic', sans-serif;
 	font-weight: bold;
 	color: #F0F9F9;
@@ -57,7 +57,7 @@ main{
 	padding-left: 80px;
 	padding-right: 80px;
 }
-h1{
+h2{
 	font-family: 'Didact Gothic', sans-serif;
 	font-weight: bold;
 	padding: 20px;
@@ -163,10 +163,16 @@ article{
 .contact h3{
 	text-transform: uppercase;
 }
+h3{
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+	color: #F0F9F9;
+	margin: 0;
+	padding-bottom: 10px;
+}
 .contact p{
 	font-family: 'Didact Gothic', sans-serif;
 }
-
 .scroll-up{
 	text-align: center;
 	padding: 60px;
