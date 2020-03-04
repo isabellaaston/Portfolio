@@ -132,14 +132,23 @@ article{
 .hover p{
 	padding-bottom: 10px;
 }
-.contact{
-	margin-left: 80px;
+#contact div{
+	display: inline-block;
 }
-.contact div{
+.contact{
 	display: inline-block;
 }
 .info{
 	display: inline-block;
+	margin-left: 80px;
+}
+.info img{
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+}
+.contact h3{
+	text-transform: uppercase;
 }
 .scroll-up{
 	text-align: center;
