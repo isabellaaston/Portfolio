@@ -7,7 +7,7 @@ body{
 }
 .menu a{
 	text-decoration: none;
-	font-family: arial;
+	font-family: 'Didact Gothic', sans-serif;
 	color: #F0F9F9;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -30,7 +30,7 @@ body{
 	min-height: 100vh;
 }
 h2, h3{
-	font-family: arial;
+	font-family: 'Didact Gothic', sans-serif;
 	font-weight: bold;
 	color: #F0F9F9;
 	margin: 0;
@@ -57,7 +57,7 @@ main{
 	padding-right: 80px;
 }
 h1{
-	font-family: Arial;
+	font-family: 'Didact Gothic', sans-serif;
 	font-weight: bold;
 	padding: 20px;
 	padding-left: 0;
@@ -88,7 +88,7 @@ p{
 }
 article{
 	padding: 20px;
-	font-family: arial;
+	font-family: 'Didact Gothic', sans-serif;
 	color: #F0F9F9;
 }
 .projects{
@@ -106,6 +106,7 @@ article{
 	margin: 0 auto;
 	float: left;
 	justify-content: space-between;
+	font-family: 'Didact Gothic', sans-serif;
 }
 .project .hover{
 	position: absolute;
@@ -121,7 +122,7 @@ article{
 	opacity: 1;
 }
 .hover{
-	font-family: arial;
+	font-family: ;
 	color: #F0F9F9;
 	font-weight: bold;
 	padding: 20px;
@@ -156,6 +157,9 @@ article{
 .contact h3{
 	text-transform: uppercase;
 }
+.contact p{
+	font-family: 'Didact Gothic', sans-serif;
+}
 .scroll-up{
 	text-align: center;
 }
@@ -163,6 +167,6 @@ article{
 	color: #F0F9F9;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-family: arial;
+	font-family: 'Didact Gothic', sans-serif;
 	font-weight: bold;
 }
