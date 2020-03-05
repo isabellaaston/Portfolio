@@ -5,7 +5,7 @@ body{
 	margin: 0;
 	padding: 0;
 }
-.menu a{
+nav a{
 	text-decoration: none;
 	font-family: 'Didact Gothic', sans-serif;
 	color: #F0F9F9;
@@ -17,7 +17,7 @@ body{
 .menu-right{
 	float: right;
 }
-.menu{
+.nav{
 	position: fixed;
 	top: 0;
 	width: 100%;
