@@ -12,7 +12,7 @@ nav a{
 	font-weight: bold;
 	text-transform: uppercase;
 	padding: 20px;
-	font-size: 22px;
+	font-size: 30px;
 }
 .menu-right{
 	float: right;
@@ -36,16 +36,12 @@ h1{
 	color: #F0F9F9;
 	margin: 0;
 	padding-bottom: 10px;
+	font-size: 5em;
 }
 .socials{
-	padding: 20px;
+	padding: 20px 80px;
 	position: absolute;
 	bottom: 5vh;
-	padding-left: 80px;
-}
-img, .socials{
-	display: inline-block;
-	margin-right: 10px;
 }
 .logos{
 	width: 60px;
@@ -54,14 +50,13 @@ img, .socials{
 main{
 	background-color: #0F1221;
 	color: #F0F9F9;
-	padding-left: 80px;
-	padding-right: 80px;
+	padding: 0 80px;
 }
 h2{
 	font-family: 'Didact Gothic', sans-serif;
 	font-weight: bold;
-	padding: 20px;
-	padding-left: 0;
+	padding: 20px 0;
+	font-size: 50px;
 }
 .about-me{
 	overflow: auto;
@@ -70,9 +65,6 @@ h2{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-}
-.about-me p{
-	display: block;
 }
 .about-me img{
 	width: 20vw;
@@ -95,6 +87,7 @@ p{
 article{
 	padding: 20px;
 	font-family: 'Didact Gothic', sans-serif;
+	font-size: 22px;
 	color: #F0F9F9;
 }
 .projects{
@@ -128,7 +121,6 @@ article{
 	opacity: 1;
 }
 .hover{
-	font-family: ;
 	color: #F0F9F9;
 	font-weight: bold;
 	padding: 20px;
@@ -172,6 +164,7 @@ h3{
 }
 .contact p{
 	font-family: 'Didact Gothic', sans-serif;
+	width: 20vw;
 }
 .scroll-up{
 	text-align: center;
