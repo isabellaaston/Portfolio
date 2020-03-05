@@ -149,7 +149,7 @@ article{
 }
 .info{
 	width: 30%;
-	overflow: auto;
+	overflow: hidden;
 }
 .info img{
 	width: 60px;
@@ -172,6 +172,7 @@ h3{
 }
 .contact p{
 	font-family: 'Didact Gothic', sans-serif;
+	font-size: 12px;
 }
 .scroll-up{
 	text-align: center;
