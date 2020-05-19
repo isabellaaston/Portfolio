@@ -1,0 +1,185 @@
+@import '_mixins';
+
+* {
+	box-sizing: border-box;
+    body{
+        margin: 0;
+        padding: 0;
+		.open {
+			background-image: url("https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+			background-repeat: no-repeat;
+			background-size: cover;
+			min-height: 100vh;
+			nav {
+				.menu-right{
+					float: right;
+					a {
+						text-decoration: none;
+						font-family: 'Didact Gothic', sans-serif;
+						color: #F0F9F9;
+						font-weight: bold;
+						text-transform: uppercase;
+						padding: 20px;
+						font-size: 30px;
+					}
+				}
+			}
+			.socials {
+				padding: 20px 80px;
+				position: absolute;
+				bottom: 5vh;
+				h1{
+					font-family: 'Didact Gothic', sans-serif;
+					font-weight: bold;
+					color: #F0F9F9;
+					margin: 0;
+					padding-bottom: 10px;
+					font-size: 5em;
+				}
+				.social-links {
+					.logos {
+						width: 60px;
+						height: 60px;
+					}
+				}
+			}
+
+		}
+		main {
+			background-color: #0F1221;
+			color: #F0F9F9;
+			padding: 0 80px;
+			.about-me {
+				overflow: auto;
+				h2{
+					@include sectionHeading;
+				}
+				.profile{
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+				}
+				img {
+					width: 20vw;
+					margin-top: 50px;
+					border-radius: 20%;
+					float: left;
+				}
+				article {
+					border-style: solid;
+					border-radius: 5px;
+					border-color: #F0F9F9;
+					margin-top: 50px;
+					padding: 20px;
+					float: right;
+					width: 60vw;
+					font-family: 'Didact Gothic', sans-serif;
+					font-size: 22px;
+					color: #F0F9F9;
+					p {
+						margin: 0;
+					}
+				}
+			}
+			.portfolio {
+				h2{
+					@include sectionHeading;
+				}
+				.projects{
+					display: grid;
+					grid-template-columns: 1fr 1fr;
+					font-family: 'Didact Gothic', sans-serif;
+					.project{
+						position: relative;
+						margin: 5%;
+						float: left;
+						img {
+							margin: 0;
+							padding:0;
+							width: 100%;
+							height: 100%;
+							opacity: 1;
+							&:hover {
+								opacity: 0.6;
+							}
+						}
+						.project-info {
+							color: #F0F9F9;
+							font-weight: bold;
+							padding: 5%;
+							position: absolute;
+							top: 0;
+							width: 100%;
+							opacity: 0;
+							font-size: 50px;
+							&:hover {
+								opacity: 1;
+							}
+							a {
+								text-decoration: none;
+								color: #F0F9F9;
+								border: solid;
+								border-radius: 5px;
+								border-width: 1px;
+								padding: 4px;
+							}
+							p{
+								padding-bottom: 10px;
+							}
+						}
+					}
+
+
+				}
+			}
+			#contact {
+				h2{
+					@include sectionHeading;
+				}
+				.contact-info{
+					// display: flex;
+					// justify-content: center;
+					display: grid;
+					grid-template-columns: 1fr 1fr 1fr;
+					.info{
+						margin: auto;
+						align-items: center;
+						img {
+							width: 60px;
+							height: 60px;
+							margin-right: 20px;
+							float: left;
+						}
+						.contact{
+							float: left;
+							h3 {
+								text-transform: uppercase;
+								font-family: 'Didact Gothic', sans-serif;
+								font-weight: bold;
+								color: #F0F9F9;
+								margin: 0;
+								padding-bottom: 10px;
+							}
+							p {
+								font-family: 'Didact Gothic', sans-serif;
+								width: 20vw;
+							}
+						}
+					}
+				}
+			}
+			.scroll-up{
+				text-align: center;
+				padding: 60px;
+				a {
+					color: #F0F9F9;
+					text-decoration: none;
+					text-transform: uppercase;
+					font-family: 'Didact Gothic', sans-serif;
+					font-weight: bold;
+					margin: 20px;
+				}
+			}
+		}
+    }
+}

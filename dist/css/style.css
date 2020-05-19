@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+}
+* body {
+  margin: 0;
+  padding: 0;
+}
+* body .open {
+  background-image: url("https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+* body .open nav .menu-right {
+  float: right;
+}
+* body .open nav .menu-right a {
+  text-decoration: none;
+  font-family: "Didact Gothic", sans-serif;
+  color: #F0F9F9;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 30px;
+}
+* body .open .socials {
+  padding: 20px 80px;
+  position: absolute;
+  bottom: 5vh;
+}
+* body .open .socials h1 {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: bold;
+  color: #F0F9F9;
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 5em;
+}
+* body .open .socials .social-links .logos {
+  width: 60px;
+  height: 60px;
+}
+* body main {
+  background-color: #0F1221;
+  color: #F0F9F9;
+  padding: 0 80px;
+}
+* body main .about-me {
+  overflow: auto;
+}
+* body main .about-me h2 {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: bold;
+  padding: 20px 0;
+  font-size: 50px;
+}
+* body main .about-me .profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+* body main .about-me img {
+  width: 20vw;
+  margin-top: 50px;
+  border-radius: 20%;
+  float: left;
+}
+* body main .about-me article {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #F0F9F9;
+  margin-top: 50px;
+  padding: 20px;
+  float: right;
+  width: 60vw;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 22px;
+  color: #F0F9F9;
+}
+* body main .about-me article p {
+  margin: 0;
+}
+* body main .portfolio h2 {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: bold;
+  padding: 20px 0;
+  font-size: 50px;
+}
+* body main .portfolio .projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Didact Gothic", sans-serif;
+}
+* body main .portfolio .projects .project {
+  position: relative;
+  margin: 5%;
+  float: left;
+}
+* body main .portfolio .projects .project img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+* body main .portfolio .projects .project img:hover {
+  opacity: 0.6;
+}
+* body main .portfolio .projects .project .project-info {
+  color: #F0F9F9;
+  font-weight: bold;
+  padding: 5%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  font-size: 50px;
+}
+* body main .portfolio .projects .project .project-info:hover {
+  opacity: 1;
+}
+* body main .portfolio .projects .project .project-info a {
+  text-decoration: none;
+  color: #F0F9F9;
+  border: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 4px;
+}
+* body main .portfolio .projects .project .project-info p {
+  padding-bottom: 10px;
+}
+* body main #contact h2 {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: bold;
+  padding: 20px 0;
+  font-size: 50px;
+}
+* body main #contact .contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+* body main #contact .contact-info .info {
+  margin: auto;
+  align-items: center;
+}
+* body main #contact .contact-info .info img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  float: left;
+}
+* body main #contact .contact-info .info .contact {
+  float: left;
+}
+* body main #contact .contact-info .info .contact h3 {
+  text-transform: uppercase;
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: bold;
+  color: #F0F9F9;
+  margin: 0;
+  padding-bottom: 10px;
+}
+* body main #contact .contact-info .info .contact p {
+  font-family: "Didact Gothic", sans-serif;
+  width: 20vw;
+}
+* body main .scroll-up {
+  text-align: center;
+  padding: 60px;
+}
+* body main .scroll-up a {
+  color: #F0F9F9;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: bold;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 1023px) {
+  body .open nav .menu-right {
+    margin: 2%;
+  }
+  body main .about-me .profile {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  body main .about-me .profile img {
+    margin: 0 auto 5%;
+  }
+  body main .about-me .profile article {
+    width: 90%;
+    margin: auto;
+    font-size: 30px;
+  }
+  body main .portfolio .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  body main .portfolio .projects .project {
+    width: 90% img;
+    width-opacity: 0.3;
+  }
+  body main .portfolio .projects .project .project-info {
+    opacity: 1;
+  }
+  body main #contact {
+    left: 5%;
+  }
+  body main #contact .contact-info {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  body main #contact .contact-info .info {
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
