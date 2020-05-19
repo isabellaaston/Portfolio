@@ -29,13 +29,13 @@
                     display: grid;
                     grid-template-columns: 1fr;
                     .project {
-                        width: 90%
+                        width: 90%;
                         img {
-                            opacity: 0.3;
+                            opacity: 0.6;
                         }
                         .project-info {
                             opacity: 1;
-                            font-size: 5vw;
+                            font-size: 4.5vw;
                         }
                     }
                 }

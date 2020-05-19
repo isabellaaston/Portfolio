@@ -116,7 +116,7 @@
   top: 0;
   width: 100%;
   opacity: 0;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 * body main .portfolio .projects .project .project-info a {
   text-decoration: none;
@@ -199,12 +199,14 @@
     grid-template-columns: 1fr;
   }
   body main .portfolio .projects .project {
-    width: 90% img;
-    width-opacity: 0.3;
+    width: 90%;
+  }
+  body main .portfolio .projects .project img {
+    opacity: 0.6;
   }
   body main .portfolio .projects .project .project-info {
     opacity: 1;
-    font-size: 5vw;
+    font-size: 4.5vw;
   }
   body main #contact {
     left: 5%;
