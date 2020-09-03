@@ -164,6 +164,11 @@
   font-family: "Didact Gothic", sans-serif;
   width: 20vw;
 }
+* body main #contact .contact-info .info .contact a {
+  font-family: "Didact Gothic", sans-serif;
+  width: 20vw;
+  color: #F0F9F9;
+}
 * body main .scroll-up {
   text-align: center;
   padding: 60px;
