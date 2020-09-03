@@ -93,7 +93,7 @@
 }
 * body main .portfolio .projects .project {
   position: relative;
-  margin: 5%;
+  margin: 3%;
   float: left;
 }
 * body main .portfolio .projects .project:hover img {
