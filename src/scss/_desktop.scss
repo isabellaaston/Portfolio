@@ -138,8 +138,6 @@
 					@include sectionHeading;
 				}
 				.contact-info{
-					// display: flex;
-					// justify-content: center;
 					display: grid;
 					grid-template-columns: 1fr 1fr 1fr;
 					.info{
@@ -164,6 +162,11 @@
 							p {
 								font-family: 'Didact Gothic', sans-serif;
 								width: 20vw;
+							}
+							a {
+								font-family: 'Didact Gothic', sans-serif;
+								width: 20vw;
+								text-decoration: none;
 							}
 						}
 					}
